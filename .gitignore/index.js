@@ -14,25 +14,25 @@ var nom = process.env.NOM;
 var prefix = process.env.PREFIX;
 
 function function1() {
-  console.log("Jeu actualisé en 'Read Roblox Request'.");
-  client.user.setActivity("Read Roblox Request");
+  console.log("Jeu actualisé en 'Manager Nova PUB'.");
+  client.user.setActivity("Manager Nova PUB");
   setTimeout(function2, 5000);
 }
 
 function function2() {
-  console.log("Jeu actualisé en 'Logs'.");
-  client.user.setActivity("Logs");
+  console.log("Jeu actualisé en 'Check logs'.");
+  client.user.setActivity("Check logs");
   setTimeout(function3, 5000);
 }
 
 function function3() {
-  console.log("Jeu actualisé en '!help | Nova'.");
-  client.user.setActivity("!help | Nova");
+  console.log("Jeu actualisé en '/help | Nova'.");
+  client.user.setActivity("/help | Nova");
   setTimeout(function4, 5000);
 }
 
 function function4() {
-  console.log("Jeu actualisé en '{🔨} xfirox#6001'.");
-  client.user.setActivity("{🔨} xfirox#6001");
+  console.log("Jeu actualisé en 'Modération bot.");
+  client.user.setActivity("Modération bot");
   setTimeout(function1, 5000);
 }
